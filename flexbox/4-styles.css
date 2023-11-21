@@ -181,7 +181,7 @@
       ============================= */
   
   ul.row {
-    margin: -1;
+    margin: -1rem;
     padding: 0;
     list-style: none;
   }
@@ -195,7 +195,7 @@
   }
   
   .col-1-2 {
-    calc((100% / 2) - 2rem)
+    width: ((100% / 2) - 2rem)
   }
   .row {
     display: flex;
