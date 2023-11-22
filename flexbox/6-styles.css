@@ -241,7 +241,7 @@
     background-color: var(--color-primary);
     width: 100%;
   }
-  .nav-item + .nav-item{
+  .nav .nav-item + .nav-item{
     margin: var(--nav-nav-item);
   }
   
