@@ -1,6 +1,6 @@
 **FLEXBOX (PROJECT 1)
 
-#INTRODUCTION/OVERVIEW
+# INTRODUCTION/OVERVIEW
 
 In this project, we are to implement a webpage from scratch without the use of any external library. We will make use of the knowledge and practical experience gained from the previous HTML/CSS/Accessibility/Responsive design projects.
 
