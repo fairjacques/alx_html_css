@@ -8,7 +8,7 @@ In this project, we are to implement a webpage from scratch without the use of a
 
 The objective of this project, is to have a fully functional web page, with very little instructions, that looks like the images below, in the various client formats.
 
-![Alt text](<../../../../Downloads/webpage views-1.jpg>)
+c:\Users\Lenovo X1 Carbon\Downloads\webpage views-1.jpg
 # TASKS
 
 The following sections are to be developed using the descriptions provided on the intranet as guides for implementating the various parts of the web page ;
