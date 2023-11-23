@@ -313,3 +313,102 @@ body {
   line-height: 25px;
   max-inline-size: 200px;
 }
+
+/* OUR RESULTS */
+
+.results {
+  background-image: var(--image-gradiant), url("./images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+  color: var(--white);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+}
+.results-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-large);
+  margin-block-end: 50px;
+}
+.results-detail {
+  max-inline-size: 575px;
+  margin: 20px auto;
+  line-height: 25px;
+  font-family: var(--font-family-base);
+}
+.result-column {
+  block-size: 220px;
+  inline-size: 220px;
+  margin-block-start: auto;
+  margin: auto;
+}
+.column-pentagone {
+  margin: auto;
+  padding: auto;
+  width: 200px;
+  height: 200px;
+}
+.result-column .column-pentagone {
+  background-image: url(./images/pentagone.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: 50%;
+  padding-block-start: 60px;
+}
+
+.column-pentagone span {
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-xx-large);
+  padding-top: 250px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  font-family: var(--font-family-bold);
+}
+
+.column-pentagone p {
+  font-family: var(--font-family-base);
+  margin: 10px auto;
+}
+
+/* CONTACT US */
+
+.wrapper-contact {
+  margin: 40px auto;
+}
+.contact {
+  block-size: 335px;
+  inline-size: 375px;
+  margin: auto;
+}
+.contact-title {
+  font-family: var(--font-family-bold);
+  margin: 20px auto;
+  color: #071629;
+}
+
+.contact-form {
+  text-align: center;
+  block-size: 335px;
+  inline-size: 375px;
+  margin: auto;
+}
+.contact-label {
+  position: relative;
+}
+.contact-label {
+  display: block;
+  font-family: var(--font-family-base);
+  text-align: start;
+}
+.contact-label input {
+  display: block;
+  border: none;
+  inline-size: 100%;
+  color:#071629;
+  border-bottom: 1.4px solid rgba(128, 128, 128, 0.274);
+  height: 40px;
+  margin: 20px 0;
+} 

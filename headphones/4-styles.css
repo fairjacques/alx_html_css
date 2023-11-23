@@ -1,5 +1,5 @@
 /* SUMMARY
-2. GLOBAL
+1. GLOBAL
 2. LAYOUT
 3. SECTION
 4. CARD
@@ -312,4 +312,336 @@ body {
   font-weight: var(--font-weight-thin);
   line-height: 25px;
   max-inline-size: 200px;
+}
+
+/* OUR RESULTS */
+
+.results {
+  background-image: var(--image-gradiant), url("./images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+  color: var(--white);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+}
+.results-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-large);
+  margin-block-end: 50px;
+}
+.results-detail {
+  max-inline-size: 575px;
+  margin: 20px auto;
+  line-height: 25px;
+  font-family: var(--font-family-base);
+}
+.result-column {
+  block-size: 220px;
+  inline-size: 220px;
+  margin-block-start: auto;
+  margin: auto;
+}
+.column-pentagone {
+  margin: auto;
+  padding: auto;
+  width: 200px;
+  height: 200px;
+}
+.result-column .column-pentagone {
+  background-image: url(./images/pentagone.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: 50%;
+  padding-block-start: 60px;
+}
+
+.column-pentagone span {
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-xx-large);
+  padding-top: 250px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  font-family: var(--font-family-bold);
+}
+
+.column-pentagone p {
+  font-family: var(--font-family-base);
+  margin: 10px auto;
+}
+
+/* CONTACT US */
+
+.wrapper-contact {
+  margin: 40px auto;
+}
+.contact {
+  block-size: 335px;
+  inline-size: 375px;
+  margin: auto;
+}
+.contact-title {
+  font-family: var(--font-family-bold);
+  margin: 20px auto;
+  color: #071629;
+}
+
+.contact-form {
+  text-align: center;
+  block-size: 335px;
+  inline-size: 375px;
+  margin: auto;
+}
+.contact-label {
+  position: relative;
+}
+.contact-label {
+  display: block;
+  font-family: var(--font-family-base);
+  text-align: start;
+}
+.contact-label input {
+  display: block;
+  border: none;
+  inline-size: 100%;
+  color:#071629;
+  border-bottom: 1.4px solid rgba(128, 128, 128, 0.274);
+  height: 40px;
+  margin: 20px 0;
+} 
+
+
+/* FOOTER */
+
+.footer {
+  position: relative;
+  block-size: 240px;
+  background-color: #071629;
+}
+.logo-container{
+  display: inline;
+  justify-content: space-between;
+}
+.logo-container img {
+  margin: 40px auto;
+}
+.social-icons {
+  margin: 40px auto;
+  display: inline;
+  float: right;
+  justify-content: space-between;
+}
+.social-icon {
+  color: var(--white);
+  font-size: 1.8rem;
+  margin: auto 10px;
+}
+
+a:link {
+  text-decoration: none; }
+a:visited {
+  text-decoration: none; }
+
+.copyright-text {
+	display: flex;
+	justify-content: center;
+}
+
+.copyright-text p {
+	margin: 0;
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-thin);
+	line-height: 15px;
+	color: var(--white);
+	mix-blend-mode: normal;
+	opacity: 0.2;
+}
+
+
+/* Media Queries for Responsive designs =========================*/
+/* MOBILE */
+
+@media screen and (max-width: 480px){
+  .wrapper {
+    inline-size: 400px;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    background-position: -600px -40px;
+  }
+  .hero-1 {
+    inline-size: 375px;
+    font-size: var(--font-size-medium);
+    margin: 5px auto;
+  }
+  .hero-2 {
+    inline-size: 400px;
+    font-size: var(--font-size-x-small);
+    margin: 10px auto;
+  }
+  .btn {
+    margin: 20px auto;
+  }
+  .hero-3 {
+    inline-size: 340px;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  .tasks {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .tasks-column {
+    margin: 40px auto;
+  }
+  .column-detail {
+    font-family: var(--font-family-base);
+    inline-size: 340px;
+    margin-inline: auto;
+  }
+  .tasks-detail {
+    inline-size: 340px;
+  }
+  .results {
+    background-color: unset;
+    background-size: cover;
+    padding: auto;
+    margin: 5px auto;
+  }
+  .results-detail {
+    font-family: var(--font-family-base);
+    inline-size: 340px;
+    margin: 20px auto;
+  }
+  .contact {
+    block-size: 360px;
+    margin: auto;
+  }
+  .contact-form {
+    margin: auto;
+  }
+  .footer {
+    block-size: 200px;
+  }
+  .footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    align-items: center;
+  }
+  .logo-container img {
+    margin-top: 30px;
+  }
+  .social-icons{
+    margin: 5px auto;
+    align-items: center;
+  }
+  .social-icon {
+    margin: auto 10px;
+  }
+  .copyright-text {
+    justify-content: center;
+    margin: 10px auto;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    inline-size: 600px;
+  }
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block-start: 20px;
+  }
+  .nav-list {
+    display: inline-flex;
+    justify-content: space-between;
+    inline-size: 275px;
+  }
+  .logo {
+    flex-basis: 80%;
+    }
+  .nav-icon {
+    display: none;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    background-position: center 0;
+  }
+  .hero-1 {
+    margin: auto;
+  }
+  .hero-2 {
+    margin: 10px auto;
+    inline-size: 600px;
+  }
+  .btn {
+    margin: 30px auto;
+  }
+  .hero-3 {
+    inline-size: 600px;
+    margin: 10px auto;
+  }
+  .tasks_container {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .column-detail {
+    font-family: var(--font-family-base);
+    line-height: 20px;
+  }
+  .results_container {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    inline-size: 1000px;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    inline-size: 100%;
+  }
+  .hero-1 {
+    margin: auto;
+  }
+  .hero-2 {
+    margin: 10px auto;
+    inline-size: 600px;
+  }
+  .btn {
+    margin: 30px auto;
+  }
+  .hero-3 {
+  inline-size: 800px;
+  margin: 30px auto;
+  }
+}
+
+/* PENTAGON ANIMATION */
+
+span:hover {
+  opacity: 0.9;
+  transition: ease-out 0.6s;
+}
+
+.column-pentagone:hover {
+  transition: transform 250ms;
+  transform: translateY(-10px);
 }
