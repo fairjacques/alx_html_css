@@ -22,10 +22,10 @@ body{
     position: absolute;
     content: '';
     height: 0;
-    width: 0;
+    width: 160px;
     border-bottom: 160px solid white;
-    border-left: 160px transparent;
-    border-right: 100px transparent;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
     bottom: 160px;
     left: -80px;
 }

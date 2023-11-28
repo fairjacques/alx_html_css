@@ -74,31 +74,6 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.holberton_school-icon-ic_hearing:before {
-	content: "\e909";
-}
-
-.holberton_school-icon-ic_music:before {
-	content: "\e90d";
-}
-
-.holberton_school-icon-ic_sound:before {
-	content: "\e90e";
-}
-
-.holberton_school-icon-ic_video:before {
-	content: "\e910";
-}
-.holberton_school-icon-ic_twitter:before {
-	content: "\e90f";
-}
-.holberton_school-icon-ic_facebook:before {
-	content: "\e908";
-}
-.holberton_school-icon-ic_instagram:before {
-	content: "\e90a";
-}
-
 .icon {
   color: var(--primary);
   font-size: 6rem;
@@ -282,7 +257,8 @@ body {
   text-align: center;
 }
 .tasks_container {
-  margin: 30px auto;
+  margin: 40px auto;
+  align-self: start;
 }
 .tasks-title {
   font-family: var(--font-family-bold);
@@ -459,7 +435,6 @@ a:visited {
 	mix-blend-mode: normal;
 	opacity: 0.2;
 }
-
 
 /* Media Queries for Responsive designs =========================*/
 /* MOBILE */
