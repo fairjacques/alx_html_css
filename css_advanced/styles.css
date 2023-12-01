@@ -65,7 +65,7 @@
   .smileOff {
     width: 36px;
     height: 30px;
-    background: url(images/smile_off.png) 0 0 no-repeat;
+    background: url(image/Object.png) 0 0 no-repeat;
     display: block;
     background-size: cover;
   }
@@ -73,7 +73,7 @@
   .smileSchool {
     width: 114px;
     height: 20px;
-    background: url(images/logo.png) 0 0 no-repeat;
+    background: url(image/logo.png) 0 0 no-repeat;
     display: block;
     background-size: cover;
   }
