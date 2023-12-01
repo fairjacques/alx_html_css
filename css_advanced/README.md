@@ -15,7 +15,7 @@ By the end of this project, we are expected to be able to explain to anyone, wit
 - How a browser loads a webpage
 
 # project task
-![Alt text](<css project img.jpg>)
+![Alt text](<css project img.jpg.jpg>)
 # TASKS
 
 The following tasks are to be completed with the help of the wireframe and design file provided through Figma(attached at the end of this document with other resources). The flow of tasks for this project are as follows;
