@@ -234,9 +234,9 @@ button {
 }
 
 .play {
-    display:;
-    width: 60px;
-    height: 60px
+    display:flex;
+    width: 40px;
+    height: 100px
 }
 
 .tutorial-videos-box h3 {
